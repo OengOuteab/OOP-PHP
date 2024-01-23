@@ -24,7 +24,7 @@ Route::get('/edit', function () {
 });
 });
 
-Route::get('/Dashboard', function () {
+Route::get('/', function () {
     return view('layouts.master');
 });
 Route::get('/Products', function () {
